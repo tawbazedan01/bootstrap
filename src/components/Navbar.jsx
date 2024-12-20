@@ -13,14 +13,14 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav gap-4 ms-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+            <link className="nav-link active" aria-current="page" to={'/portfolio'}>Portfolio</link>
           </li>
           <li className="nav-item">
-            <a className="nav-link active" href="#">About</a>
+            <link className="nav-link active" to={'/about'}>About</link>
           </li>
          
           <li className="nav-item">
-            <a className="nav-link active" href='#'>Contact</a>
+            <link className="nav-link active" to={'/contact'}>Contact</link>
           </li>
         </ul>
       </div>
